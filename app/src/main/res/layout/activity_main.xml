@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dpc.administrator.duanxin.MainActivity"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    >
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        android:textSize="25dp"
+        android:id="@+id/tv_number"
+        />
+
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_number"
+
+        />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btn_set_number"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#d81e06"
+        android:text="提交号码"
+        android:layout_gravity="right"
+        />
+
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/btn_stop_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d81e06"
+        android:layout_marginTop="40dp"
+        android:text="关闭语音提示" />
+
+    <com.gc.materialdesign.views.ButtonFlat
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试语音提示"
+        android:id="@+id/btn_test_music"
+        android:layout_gravity="right"
+        android:background="#d81e06"
+        />
+
+
+
+
+</LinearLayout>
